@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    position: relative;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #e4e9f7;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+ @media screen and (max-width: 375px) {
+    body{
+        background-image: url(images/pattern-background-mobile.svg);
+    }
+    .face{
+        height: 567px;
+        width: 327px;
+    }
+    .plan{
+        max-width: 279px;
+        height: 81px;
+        margin-top: 336px;
+        left: px;
+    }
+    .plan h2{
+        left: -60px;
+    }
+    .plan2{
+        max-width: 279px;
+        height: 50px;
+    }
+    .plan2 h1{
+        left: -40px;
+    }
+    .plan2 h3{
+        left: -35px;
+    }
+ }
+
+.face{
+    display: flex;
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 697px;
+    max-width: 450px;
+    box-shadow: 0px 4rem 4rem -2rem rgba(13, 48, 189, 0.151826);
+    flex-direction: center;
+    justify-content: center;
+}
+.face img{
+    display: block;
+    width: 450px;
+    Width: 100%;
+    height: 220px;
+    border-radius: 20px 20px 0px 0px;
+}
+.face h1{
+    display: flex;
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 0px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    color: #1F2E55;
+}
+.face a{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 315px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #717FA6;
+}
+.plan{
+    display: flex;
+    position: absolute;
+    background-color: #F7F9FF;
+    height: 98px;
+    width: 354px;
+    border-radius: 11px;
+    margin-left: 0px;
+    margin-top: 420px;
+}
+.plan img{
+    align-items: center;
+    display: flex;
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 24px;
+}
+.plan h1{
+    position: absolute;
+    height: 21px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 96px;
+    color: #1F2E55;
+    font-weight: 900;
+    font-style: normal;
+}
+.plan a{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 96px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+}
+.plan h2{
+    display: flex;
+    position: absolute;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    height: 19px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #382AE1;
+    text-decoration-line: underline;
+    margin-left: 280px;
+    margin-top: 40px;
+}
+.plan h2:hover{
+    cursor: pointer;
+    color: #766CF1;
+    text-decoration: none;
+}
+.plan2{
+    display: flex;
+    position: absolute;
+    Width: 354px;
+    height: 50px;
+    border-radius: 11px;
+    margin-top: 130px;
+    background-color: #382AE1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+}
+.plan2 h1{
+    display: flex;
+    position: absolute;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 110px;
+    font-size: 15px;
+    position: absolute;
+    font-weight: 900;
+    line-height: 20px;
+    cursor: pointer;
+}
+.plan h3{
+    display: flex;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 100px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #717FA6;
+}
+.plan h3:hover{
+    color: #1F2E55;
+    cursor: pointer;
+}
